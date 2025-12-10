@@ -1,5 +1,5 @@
-🧠 Deskripsi Singkat Tiap Komponen
-1. Data Mentah (data_raw/)
+Deskripsi Singkat Tiap Komponen
+1. Data Mentah
 
 Berisi hasil scraping ulasan Google Play Store dengan kolom:
 
@@ -89,7 +89,7 @@ struktur semantik jelas,
 
 koherensi paling tinggi.
 
-📊 Folder Hasil (hasil/)
+Folder Hasil (hasil/)
 
 Folder ini memuat seluruh keluaran pipeline:
 
@@ -115,7 +115,7 @@ wordcloud_global.png
 
 Semua visualisasi bebas dibuka menggunakan browser atau aplikasi gambar.
 
-🚀 Cara Menjalankan Pipeline
+Cara Menjalankan Pipeline
 1. Install dependensi
 Jalankan pipeline installer.ipynb atau copy paste baris kode installer dan jalankan di terminal
 
@@ -125,10 +125,7 @@ Atau secara manual:
 pip install bertopic sentence-transformers hdbscan umap-learn gensim wordcloud
 pip install plotly kaleido   # opsional untuk ekspor PNG
 
-2. Jalankan preprocessing
-jupyter notebook preprocessing/preprocessing_script.ipynb
-
-3. Jalankan pemodelan topik
+2. Jalankan preprocessing dan pemodelan topik
 jupyter notebook pipeline/Process_full.ipynb
 
 🔍 Reproduksibilitas Penelitian
