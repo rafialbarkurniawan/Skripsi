@@ -72,9 +72,9 @@ Cara Menjalankan Pipeline
 # Jalankan preprocessing dan pemodelan topik
 - jupyter notebook pipeline/Process_full.ipynb
 
-🔍 Reproduksibilitas Penelitian
+#🔍 Reproduksibilitas Penelitian
 
-# Repositori ini mencakup:
+## Repositori ini mencakup:
 - seluruh kode yang digunakan,
 - dataset hasil preprocessing,
 - parameter eksak untuk setiap model,
